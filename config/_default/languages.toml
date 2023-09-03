@@ -4,10 +4,12 @@
 languageName = "English"
 languagedirection = "ltr"
 title = "Xing Personal Page"
-weight = 1
+weight = 2
+contentDir = "content/english"
 
 [zh-cn]
 languageName = "Chinese"
 languagedirection = "ltr"
 title = "邢栋夏"
-weight = 2
+weight = 1
+contentDir = "content"
