@@ -1,5 +1,5 @@
 ---
-title: 中文标题
+title: 中文标题 Test
 description: 页面简单描述
 slug: hello-world
 date: 2023-03-06 00:00:00+0000
