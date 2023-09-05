@@ -1,9 +1,9 @@
 # Configure main menu and social menu
 [[main]]
-#identifier = "home"
-#name = "Home"
+identifier = "home"
+name = "Home"
 url = "/en/"
-#[main.params]
+[main.params]
 #icon = "home"
 #newtab = true
 

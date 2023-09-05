@@ -5,6 +5,11 @@ links:
     description: GitHub is the world's largest software development platform.
     website: https://github.com
     image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+  - title: Markdown
+    description: Markdown Guide | Basic Syntax 
+    website: https://www.typescriptlang.org
+    website: https://www.markdownguide.org/basic-syntax
+    image: icons8-markdown-100.png 
 menu:
     main: 
         weight: 4
@@ -31,3 +36,5 @@ links:
 ```
 
 `image` field accepts both local and external images.
+
+[Markdown](https://icons8.com/icon/21827/markdown) icon by [Icons8](https://icons8.com)
