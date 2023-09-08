@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on 邢栋夏</title><link>https://xing-dongxia.github.io/tags/hugo/</link><description>Recent content in Hugo on 邢栋夏</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 07 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://xing-dongxia.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo Module 使用方法学习</title><link>https://xing-dongxia.github.io/p/hugo-module/</link><pubDate>Sun, 03 Sep 2023 21:03:00 +0000</pubDate><guid>https://xing-dongxia.github.io/p/hugo-module/</guid><description>&lt;img src="https://xing-dongxia.github.io/p/hugo-module/cover.jpg" alt="Featured image of post Hugo Module 使用方法学习" />&lt;p>参考 &lt;a class="link" href="https://www.thenewdynamic.com/article/hugo-modules-everything-from-imports-to-create/" target="_blank" rel="noopener"
+>Hugo Modules: everything you need to know&lt;/a> ,学习Module的使用。&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack-starter" target="_blank" rel="noopener"
+>hugo-theme-stack-stater&lt;/a> 是一个已经被初始化为Hugo Module的仓库，因此会生成两个文件go.mod和go.sum。在config中module.imports.path定义的链接mount了一个包含Hugo主题和布局的GitHub仓库。可以尝试同时mount多个仓库的指定文件到自己仓库的指定目录下。&lt;/p>
+&lt;p>Hugo Module 是一种从其他公共仓库引入文件到自己的Hugo工程的方法，他同时可以管理各种引入文件的版本，当然这是基于引入仓库的良好维护的。在开源环境中，一些静态网页被使用的模块可以被反复使用，而不用在本地工程中存放，又或者你可以通过这种方式方便的根据引用仓库的迭代，更新优化自己的网站页面。&lt;/p>
+&lt;p>如果担心引入的仓库无法连接，把需要使用的layout放在自己的工程下也是一个好的选择。&lt;/p>
+&lt;blockquote>
+&lt;p>Photo by &lt;a class="link" href="https://unsplash.com/@pawel_czerwinski" target="_blank" rel="noopener"
+>Pawel Czerwinski&lt;/a> on &lt;a class="link" href="https://unsplash.com/" target="_blank" rel="noopener"
+>Unsplash&lt;/a>&lt;/p>
+&lt;/blockquote></description></item><item><title>【双语系列】双语博客设置</title><link>https://xing-dongxia.github.io/p/dl_post1/</link><pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate><guid>https://xing-dongxia.github.io/p/dl_post1/</guid><description>&lt;p>双语系列的第一篇文章，通过简单的适配，同一篇文章可以切换中英两个版本：&lt;/p>
+&lt;p>这个是Hugo theme 的一个功能，在我使用的这个主题：&lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener"
+>&lt;strong>stack&lt;/strong>&lt;/a>中适用，其他主题需要却定是否定义了这一功能。当然也可能是Hugo自适应的功能。&lt;/p>
+&lt;p>如果你使用的是和我一样的主题，在使用相同配置文件的条件下，只要在不同语言对应根目录的/content/language/post中使用同样文件夹名，那么在生成的文章页中就会出现语言切换按钮了。&lt;/p>
+&lt;p>在我的仓库中：&lt;/p>
+&lt;ul>
+&lt;li>content/cn/post/blog_name_1/index.md&lt;/li>
+&lt;li>content/en/post/blog_name_1/index.md&lt;/li>
+&lt;/ul>
+&lt;p>这两篇在不同目录下，但具有相同文章名文件夹的博客可以使用语言切换功能。&lt;/p></description></item></channel></rss>

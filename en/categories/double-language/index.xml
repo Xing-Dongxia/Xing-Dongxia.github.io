@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Double Language on Xing Personal Page</title><link>https://xing-dongxia.github.io/en/categories/double-language/</link><description>Recent content in Double Language on Xing Personal Page</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 07 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://xing-dongxia.github.io/en/categories/double-language/index.xml" rel="self" type="application/rss+xml"/><item><title>【Double Language】Setting a post with multiple language</title><link>https://xing-dongxia.github.io/en/p/dl_post1/</link><pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate><guid>https://xing-dongxia.github.io/en/p/dl_post1/</guid><description>&lt;p>In this article, you can learn how to set your post with more than one language. A reader can choose the disire language with Language button.&lt;/p>
+&lt;p>Language switch is a function of the deployed theme：&lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener"
+>&lt;strong>stack&lt;/strong>&lt;/a>. If you apply other themes, you should test if the function works same with theme Stack. I&amp;rsquo;m not sure if this function will always be deployed by Hugo automatically.&lt;/p>
+&lt;p>To apply the language switch fuction, you should set you language configeration into multiple model. At the root of different language /content/language/post, you should use the same dir_name in the different languages which you designed can be switched with each other, then you activate language switch function.&lt;/p>
+&lt;p>In my repository：&lt;/p>
+&lt;ul>
+&lt;li>content/cn/post/blog_name_1/index.md&lt;/li>
+&lt;li>content/en/post/blog_name_1/index.md&lt;/li>
+&lt;/ul>
+&lt;p>This two articles are in Chinese and English respectively. They can switch to each other as they share the blog directory name with blog_name_1.&lt;/p></description></item></channel></rss>

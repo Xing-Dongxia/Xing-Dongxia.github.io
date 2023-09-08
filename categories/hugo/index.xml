@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on 邢栋夏</title><link>https://xing-dongxia.github.io/categories/hugo/</link><description>Recent content in Hugo on 邢栋夏</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 03 Sep 2023 21:03:00 +0000</lastBuildDate><atom:link href="https://xing-dongxia.github.io/categories/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo Module 使用方法学习</title><link>https://xing-dongxia.github.io/p/hugo-module/</link><pubDate>Sun, 03 Sep 2023 21:03:00 +0000</pubDate><guid>https://xing-dongxia.github.io/p/hugo-module/</guid><description>&lt;img src="https://xing-dongxia.github.io/p/hugo-module/cover.jpg" alt="Featured image of post Hugo Module 使用方法学习" />&lt;p>参考 &lt;a class="link" href="https://www.thenewdynamic.com/article/hugo-modules-everything-from-imports-to-create/" target="_blank" rel="noopener"
+>Hugo Modules: everything you need to know&lt;/a> ,学习Module的使用。&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack-starter" target="_blank" rel="noopener"
+>hugo-theme-stack-stater&lt;/a> 是一个已经被初始化为Hugo Module的仓库，因此会生成两个文件go.mod和go.sum。在config中module.imports.path定义的链接mount了一个包含Hugo主题和布局的GitHub仓库。可以尝试同时mount多个仓库的指定文件到自己仓库的指定目录下。&lt;/p>
+&lt;p>Hugo Module 是一种从其他公共仓库引入文件到自己的Hugo工程的方法，他同时可以管理各种引入文件的版本，当然这是基于引入仓库的良好维护的。在开源环境中，一些静态网页被使用的模块可以被反复使用，而不用在本地工程中存放，又或者你可以通过这种方式方便的根据引用仓库的迭代，更新优化自己的网站页面。&lt;/p>
+&lt;p>如果担心引入的仓库无法连接，把需要使用的layout放在自己的工程下也是一个好的选择。&lt;/p>
+&lt;blockquote>
+&lt;p>Photo by &lt;a class="link" href="https://unsplash.com/@pawel_czerwinski" target="_blank" rel="noopener"
+>Pawel Czerwinski&lt;/a> on &lt;a class="link" href="https://unsplash.com/" target="_blank" rel="noopener"
+>Unsplash&lt;/a>&lt;/p>
+&lt;/blockquote></description></item></channel></rss>

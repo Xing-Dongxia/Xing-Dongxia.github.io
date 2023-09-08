@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Markdown on 邢栋夏</title><link>https://xing-dongxia.github.io/tags/markdown/</link><description>Recent content in Markdown on 邢栋夏</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 04 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://xing-dongxia.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml"/><item><title>Markdown使用 (1)</title><link>https://xing-dongxia.github.io/p/markdown%E4%BD%BF%E7%94%A8-1/</link><pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate><guid>https://xing-dongxia.github.io/p/markdown%E4%BD%BF%E7%94%A8-1/</guid><description>&lt;p>Markdown不应该成为限制你写作或者创作因素，应该做到使用它，再熟悉它。Markdown的一个优点是，格式的规整和一致，让读者和作者都能够清晰的看到文章的结构和重点，目录和超链接能够方便的做到检索和跳转。能做到这一点，Markdown已经很好的完了它的使命。&lt;/p>
+&lt;h2 id="结构">结构&lt;/h2>
+&lt;p>最常用的结构是标题和列表：&lt;/p>
+&lt;ul>
+&lt;li>标题：你可以在右边的目录里通过标题快速定位到目标内容的位置，这也是使用Markdown配合Hugo结构的好处。&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">&lt;span class="gu">## 这是一个二号标题
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">### 这是一个三号标题
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ul>
+&lt;li>列表：&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">&lt;span class="k">-&lt;/span> 列表项1
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">-&lt;/span> 列表项2
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;hr>
+&lt;h2 id="字体">字体&lt;/h2>
+&lt;p>我最常用的字体形式是&lt;strong>加粗&lt;/strong>和&lt;em>斜体&lt;/em>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">我最常用的字体形式是**加粗**和*斜体*
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;hr>
+&lt;h2 id="超链接">超链接&lt;/h2>
+&lt;p>超链接可以让你快速跳转到需要的地址，需要配合 &lt;code>[]&lt;/code>和&lt;code>()&lt;/code> 使用。&lt;/p>
+&lt;p>查看更详细的指导，&lt;a class="link" href="https://www.markdownguide.org/basic-syntax/#links" target="_blank" rel="noopener"
+>&lt;strong>点点我&lt;/strong>&lt;/a>。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">查看更详细的指导，[**点点我**](https://www.markdownguide.org/basic-syntax/#links)。
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>如果你想直接显示出链接，可以使用&lt;code>&amp;lt;&amp;gt;&lt;/code>: &lt;a class="link" href="https://www.markdownguide.org/" target="_blank" rel="noopener"
+>https://www.markdownguide.org/&lt;/a>&lt;/p></description></item></channel></rss>
